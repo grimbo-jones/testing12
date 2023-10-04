@@ -1,0 +1,226 @@
+header {
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;}
+
+body {
+    background-color: lightblue;
+}
+
+.main-page {
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+nav {
+    background-color: #333; 
+    padding: 10px 0;   
+    }
+    
+.nav-list {
+    list-style-type: none; 
+     margin: 0;
+    padding: 0;
+    display: flex; 
+    justify-content: center; 
+    }
+
+
+
+.nav-list li:hover a {
+    font-size: 22px; 
+    color: #3fc6cd; 
+}
+
+.nav-list li {
+    margin: 0 20px; /* Add some horizontal space between the items */
+    border: 1px solid #ffffff; /* Add a border around the items */
+    padding: 5px 10px; /* Add some padding inside the items */
+    border-radius: 5px; /* Add rounded corners to the border */
+}
+
+    
+li {
+     margin: 0 10px; 
+    }
+    
+a {
+    color: white; 
+    text-decoration: none;
+    font-size: 20px; 
+    }
+
+h2 {
+    display: flex;
+    justify-content: center;}
+
+.centered {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin-bottom: 10px;
+}
+
+.centered img {
+    max-width: 100%;
+}
+
+.centered-text{
+    text-align: center;
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.copyright{
+    font-size: 13px;
+    font-style: italic;
+}
+
+table {
+    width: 50%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+}
+
+caption {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+th, td {
+    padding: 8px 12px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #f0f0f0;
+}
+
+.blue {
+    color:rgb(24, 143, 223)
+}
+
+.purple {
+    color: rgb(208, 73, 208)
+}
+
+.wow-class-list {
+    list-style-type: none;
+}
+
+.wow-class {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.wow-list {
+    list-style-type: disc;
+    margin-left: 20px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.wow-list li {
+    margin-bottom: 5px;
+}
+
+.druid { 
+    color: rgb(242, 154, 12);
+}
+
+.warrior { 
+    color: rgb(136, 96, 54);
+}
+
+.monk { 
+    color: rgb(24, 163, 103);
+}
+
+.content {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    display: inline-block; 
+}
+
+a:visited {
+    color: #b019de; 
+}
+
+a:hover {
+    color: #3fc6cd; 
+}
+
+a:active {
+    color: #4d0f64; 
+}
+
+.slide-in {
+    opacity: 0;
+    transform: translateX(-100%);
+    transition: opacity 1s ease, transform 1s ease;
+}
+
+.slide-in.show {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+@keyframes slideInFromLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.toggle-styles {
+    position: absolute;
+    top: 15px;
+    right: 0;
+    margin: 10px;
+}
+
+.toggle-styles button {
+    background-color: black; 
+    color: red; 
+    border: none; 
+    padding: 5px 10px; 
+    border-radius: 5px; 
+    cursor: pointer;
+}

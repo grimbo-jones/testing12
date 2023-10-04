@@ -1,0 +1,25 @@
+body {
+    background-color: black; /* Set the background color to black */
+    color: red; /* Set the text color to red */
+    font-family: Verdana, Geneva, Tahoma, sans-serif; /* Add a gothic font */
+}
+
+.nav-list li a {
+    color: red; /* Set the text color for navigation links */
+}
+
+button {
+    background-color: black;
+    color: red;
+}
+
+.main-page {
+    font-size: 17px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    font-family:'Courier New', Courier, monospace; /* Add your alternate font */
+}
+
