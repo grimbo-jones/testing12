@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="main.css" rel="stylesheet">
+    <link id="altStylesheet" href="alternate.css" rel="stylesheet" disabled>
+    <title>Life of Roberto</title>
+</head>
+<body class="main-page">
+    <nav>
+        <ul class="nav-list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="hobbies.html">Hobbies</a></li>
+            <li class="toggle-styles"><button id="toggleStyles">Emo Mode</button></li>
+        </ul>
+    </nav>
+    <header>
+        <h1>Life of Roberto</h1>
+    </header>
+
+    <main class="content">
+        <p>Hello! I am Robert! but most people call me Robby!<br>I am majoring in CyberSecurity and here I will talk about myself. <br>Here is a decent picture of me so you can visualize the man behind the screen.</p>
+        <img src="imgs\roberto.jpg" alt="me at my sister's wedding" width="200">
+        <p>The first topic I would like to talk about is very important to me: <strong>my cats.</strong></p>
+        <h2>Robby's Cats</h2>
+        <p>I am the father of two amazing and lovely cats.<br><br>My first-born is Grimbo Jones, he is a tuxedo cat that is five years old. </p>
+        <h3>Grimbo Jones</h3>
+        <img src="imgs\gorgeousgrim.jpg" alt="grimbo being handsome" width="200">
+        <p>So this handsome man above is named Grimbo Jones. He is actually the nicest cat I've ever met. I know it sounds biased, but he has never scratched or bit me in the whole time of owning him. He's just a gentleman. I mean he's <em>literally</em> wearing a tuxedo.</p>
+        <p> Now I will show you my favorite picture I have taken of this handsome devil:</p>
+        <img src="imgs\startledgrim.jpg" alt="grimbo looking surprised" width="300">
+        <p>Isn't he just the most handsome cat you've ever seen? Look at his beautiful eyes and his funny whiskers that makes him look like an old man.</p>
+        <h2>Benny</h2>
+        <img src="imgs\closeben.jpg" alt="handsome boy benny" width="200">
+        <p>Benny is four years old and is all black. He is "half-fluffy" I like to call it. He is a sweet boy, but not as sweet as Grimbo.<br>Benny is obsessed with me, but if you annoy him too much, he may be inclined to give a little bite.<br><br>I know you're probably asking "Robby, don't you have a favorite picture of Benny like you do of Grimbo?" And to that I say: <strong>you already know the answer to that.</strong></p>
+        <img src="imgs\nosemanben.jpg" alt="benny's ginormous nose" width="300">
+        <p>And just to be clear, no cats were harmed in the taking of these photos, I would <em>never</em> harm my sons, I love them too much.</p>
+    </main>
+    <footer>
+        <p class="copyright">© 2023 Life of Roberto, Robby Morales</p>
+    </footer>
+    <script>
+        document.getElementById('toggleStyles').addEventListener('click', function() {
+            var altStyle = document.getElementById('altStylesheet');
+            altStyle.disabled = !altStyle.disabled;
+        });
+    </script>
+</body>
+</html>
